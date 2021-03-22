@@ -1,7 +1,7 @@
-var valorEmReal = prompt("Qual valor em bitcoin que você deseja converter?");
-valorEmReal = parseFloat(valorEmReal);
+var valorEmDolar = prompt("Qual valor em dolar que você deseja converter?");
+valorEmDolar = parseFloat(valorEmDolar);
 
-var valorEmBitCoin = valorEmReal * 300520.69;
-var valorBitCoinFixado = valorEmBitCoin.toFixed(2);
+var valorEmReal = valorEmDolar * 5.51;
+var valorRealFixado = valorEmReal.toFixed(2);
 
-alert("A Conversão do valor " +valorEmReal+ " em real é: " +valorBitCoinFixado);
+alert("A Conversão do valor " +valorEmDolar+ " em real é: " +valorRealFixado);
