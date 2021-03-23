@@ -3,6 +3,7 @@ body {
   min-height: 400px;
   background-image: url('https://images.alphacoders.com/888/888301.jpg');
   background-color: #000000;
+  background-size: 1000vh;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
