@@ -1,0 +1,123 @@
+:root {
+  --color-first: #f25a70;
+  --color-second: #7c5e99;
+  --color-third: #ffffff;
+
+  --color-black-first: #000;
+  --color-black-first-light: rgba(0, 0, 0, 0.5);
+
+  --color-success: #62c370;
+  --color-error: #ba1f33;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+  background-color: var(--color-second);
+  color: var(--color-third);
+  padding-top: 40px;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+input {
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+  font-size: 18px;
+  border-radius: 0;
+  border: 4px solid var(--color-black-first);
+  height: 50px;
+  width: 340px;
+  padding: 20px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  margin-bottom: 15px;
+}
+
+button {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Press Start 2P", cursive;
+  width: 340px;
+  height: 50px;
+  padding: 10px;
+  background-color: var(--color-first);
+  color: var(--color-third);
+  border: 0;
+  cursor: pointer;
+  transition: transform 100ms ease-in-out;
+  box-shadow: 4px 4px 0 var(--color-black-first);
+  margin-bottom: 40px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  color: var(--color-black-first);
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-black-first-light);
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 1s ease-in-out,
+    transform 2s cubic-bezier(0.7, 1.06, 0.55, 2.56);
+}
+
+section.active {
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-third);
+  border: 4px solid var(--color-black-first);
+  width: 600px;
+  height: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: var(--color-success);
+  margin-bottom: 40px;
+}
+
+h3.error {
+  color: var(--color-error);
+}
+
+p {
+  font-size: 10px;
+  color: var(--color-third);
+  margin-right: 100px;
+  margin-bottom: 5px;
+} 
+
+img {
+  width: 20%;
+}
