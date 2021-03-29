@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>
+      Imersão Dev - Aula 05
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        AnimesFlix
+      </h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+      <br>
+      <div class="container-opcoes">
+        <span>Ordenar por</span>
+        <select id="ordenarFilmes" onclick=ordenar()>
+          <option value="nome" class="ordemNome">Nome</option>
+          <option value="anoLancamento" class="ordemLancamento">Lançamento</option>
+          <option value="anoCronologico" class="ordemCronologica">Cronologia</option>
+        </select>
+        <button class="mostra-container-cadastro" onclick="habilitaContainerCadastro()">Cadastrar</button>
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      <div class="container-cadastro">
+        <fieldset>
+          <legend>Cadastro</legend>
+          <div class="container-cadastro-campo">
+            <label for="nomeFilme">Nome do filme</label>
+            <input type="text" id="nomeFilme">
+          </div>
+          <div class="container-cadastro-campo">
+            <label for="anoLancamentoFilme">Ano de lançamento</label>
+            <input type="number" id="anoLancamentoFilme">
+          </div>
+          <div class="container-cadastro-campo">
+            <label for="anoCronologiaFilme">Ano cronológico dos eventos</label>
+            <input type="number" id="anoCronologiaFilme">
+          </div>
+          <div class="container-cadastro-campo">
+            <label for="linkTrailerFilme">Endereço do trailer</label>
+            <input type="text" id="linkTrailerFilme">
+          </div>
+          <div class="container-cadastro-campo">
+            <label for="linkImagemFilme">Endereço da imagem</label>
+            <input type="text" id="linkImagemFilme">
+          </div>
+          <div class="container-cadastro-campo">
+            <label for="linkImdbFilme">Endereço resumo do filme</label>
+            <input type="text" id="linkImdbFilme">
+          </div>
+          <button onclick="salvarFilme()">Salvar</button>
+          <button onclick="desabilitaContainerCadastro()">Cancelar</button>
+        </fieldset>
+      </div>
+      <div class="container-total">
+      </div>
+      <script src="JS/script.js"></script>
+      </body>
+    </html>
