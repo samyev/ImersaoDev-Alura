@@ -1,0 +1,137 @@
+body {
+  font-family: 'Noto Sans HK', sans-serif;
+  min-height: 50px;
+  background-image: url(https://images7.alphacoders.com/956/956302.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 5px 0;
+  font-size: 45px;
+  text-height: bold;
+}
+
+button, .button-jogar {
+  padding: .8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+h2 {
+  color: white;
+}
+
+#carta-jogador, #carta-maquina {
+  width: 390px;
+  height: 690px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 80px;
+  border-radius: 33px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 2rem;
+  color: white;
+  z-index: 2;
+}
+
+
+
+.carta-status input {
+  margin: 10px 10px;
+}
+
+.resultado-final {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weigth: bolder;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.carta-subtitle {
+  z-index: 2;
+  position: absolute;
+  bottom: 605px;
+  left: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carta-status p {
+margin: 10px 10px;
+padding: 0px;
+text-align: start;
+}
+
+#form h2 {
+font-family: 'Noto Sans HK', sans-serif;
+color: #ff9966;
+text-height: bold;
+font-size: 40px;
+margin-bottom: 15px;
+}
+
+#opcoes {
+text-align: start;
+}
