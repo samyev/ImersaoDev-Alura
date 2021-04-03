@@ -8,7 +8,7 @@ var cartaJogador1 = {
   },
 };
 
-var cartaJogador1 = {
+var cartaJogador2 = {
   nome: "Rimuru Tenpesuto - Rank A/B",
   imagem: "http://pm1.narvii.com/7001/2b707b1872d34857126e16703962c9bfe2ffd25dr1-640-451v2_00.jpg",
   atributos: {
@@ -18,7 +18,7 @@ var cartaJogador1 = {
   }
 };
 
-var cartaJogador1 = {
+var cartaJogador3 = {
   nome: "Rimuru Tenpesuto - Rank SS",
   imagem: "https://www.kaorinusantara.or.id/wp-content/uploads/2019/03/2nd_teaser_Rimuru_toric_k-768x1086.jpg",
   atributos: {
@@ -28,7 +28,7 @@ var cartaJogador1 = {
   }
 };
   
-var cartaJogador2 = {
+var cartaJogador4 = {
   nome: "Benimaru",
   imagem: "https://i.imgur.com/Qd7hYk6.jpg",
   atributos: {
@@ -38,7 +38,7 @@ var cartaJogador2 = {
   }
 };
 
-var cartaJogador3 = {
+var cartaJogador5 = {
   nome: "Shion",
   imagem: "https://i.imgur.com/5KAooF3.jpg",
   atributos: {
